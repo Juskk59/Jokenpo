@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jôkempo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="escolha">
+    <hr>
+    <h1>Jogo do Jôkempo</h1>
+    <p>Bem vindo ao simulador de Jôkempo online!!</p>
+    <p>Clique na imagem abaixo para fazer sua escolha</p>
+    <hr>
+
+        <img src="pedra.png" alt="pedra" onclick="escolher('pedra')">
+        <img src="papel.png" alt="papel" onclick="escolher('papel')">
+        <img src="tesoura.png" alt="tesoura" onclick="escolher('tesoura')">
+        <button onclick="iniciarJogo()">Iniciar Jogo</button>
+        <br>
+    </div>
+    <br>
+    <br>
+    <br>
+    <div id="maquina">
+        <img src="pc.png" alt="pc desligado" id="desligado">
+        <hr> 
+        <div id="placar"> 
+        
+            
+        </div>  
+    </div>
+
+
+    
+    <script src="script.js"></script>
+
+</body>
+</html>
